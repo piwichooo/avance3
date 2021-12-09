@@ -27,42 +27,44 @@
         <!--menu-->
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.jsp">  <img class="logotipo" src="images/RPC-JP_Logo.png" alt=""/>  </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">                       
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
-                               aria-expanded="false">Servicios
-                            </a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="dibujos.jsp">Dibujos</a></li>
-                                <li><a class="dropdown-item" href="videos.jsp">Videos</a></li>
-                                <li><a class="dropdown-item" href="foto.jsp">Fotografias</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.jsp">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"href="sucursales.jsp">Sucursales</a>
-                        </li>
-                        <li class="nav-item">
-                             <a class="nav-link" href="administracion.jsp">Administracion</a>
+             <div class="container">
+                 <a class="navbar-brand" href="index.jsp">  <img class="logotipo" src="images/RPC-JP_Logo.png" alt=""/>  </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">                       
+                         <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+                                aria-expanded="false">Servicios
+                             </a>
+                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <li><a class="dropdown-item" href="dibujos.jsp">Dibujos</a></li>
+                                 <li><a class="dropdown-item" href="videos.jsp">Videos</a></li>
+                                 <li><a class="dropdown-item" href="vistas/foto.jsp">Fotografias</a></li>
+                             </ul>
+                          
+                            
                          </li>
-                        <li class="">
-                            <a href="https://www.facebook.com/"><img class="iconos-redes-header" src="images/facebook.png" alt="Facebook" /></a>
-                            <a href="https://www.instagram.com/"><img class="iconos-redes-header" src="images/instagram.png" alt="Instagram"/></a>
-                            <a href="https://www.youtube.com/"><img class="iconos-redes-header" src="images/youtube.png" alt="Youtube"/></a>
-                        </li> 
-                    </ul>
-                </div>
-            </div>
-        </nav>  
+                         <li class="nav-item">
+                             <a class="nav-link" href="contacto.jsp">Contacto</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="sucursales.jsp">Sucursales</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="identificar.jsp">Iniciar Sesión</a>
+                         </li>
+                         <li class="">
+                             <a href="https://www.facebook.com/"><img class="iconos-redes-header" src="images/facebook.png" alt="Facebook" /></a>
+                             <a href="https://www.instagram.com/"><img class="iconos-redes-header" src="images/instagram.png" alt="Instagram"/></a>
+                             <a href="https://www.youtube.com/"><img class="iconos-redes-header" src="images/youtube.png" alt="Youtube"/></a>
+                         </li> 
+                     </ul>
+                 </div>
+             </div>
+         </nav> 
 
             <div class="container mt-5 mb-4">
                 <div class="row row-cols-4">
